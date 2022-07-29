@@ -10,10 +10,6 @@ fi
 
 source "$ZSH"/oh-my-zsh.sh
 
-alias yeet="yay -Rn"
-alias yeeet="yay -Rns"
-alias yeet_useless="yay -Rns $(yay -Qtdq)"
-
 # git
 alias g="git"
 alias gad="git add --all"
@@ -36,7 +32,8 @@ alias gra="git remote add origin git@github.com:"
 alias grs="git remote set-url origin git@github.com:"
 
 # other
-alias nv="nvim"
+alias vi="vim"
+alias vim="nvim"
 alias la="ls -alF"
 alias h="history|grep"
 alias c="clear" # I know about ctrl l etc.
